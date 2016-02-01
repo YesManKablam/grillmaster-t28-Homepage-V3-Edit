@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <title>Home</title>
+
+    <style type="text/css">
+        /*
+        * grillmaster-t28 (Dark) style.css - Last Updated: 2016 Jan 05 - Version 3 - Public Domain
+        * This works well on an up-to-date Gecko-based browsers such as Firefox, Palemoon, and SeaMonkey
+        * This works in webkit browsers, but does it poorly and I experience some lags with it
+        * Colour scheme based on Spacegray.vim: https://github.com/ajh17/Spacegray.vim
+        */
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #t a {
+            color: #B7BBB7;
+            background-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+        }
+
+        a:link, a:visited {
+            color: #66899D;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            color: #8D6494;
+            background-color: rgba(0, 0, 0, 1);
+            text-decoration: none;
+        }
+
+        h1, aside, h2 {
+            background-color: rgba(0, 0, 0, 0.7);
+            max-width: 300px;
+            line-height: 50px;
+        }
+
+        /* Page structure */
+
+        body {
+            font-family: sans-serif;
+            /*background-color: #111314;*/
+            background: url(images/back1.jpg) no-repeat;
+            color: #B7BBB7;
+            /*margin: 10px;*/
+            padding-left: 20%;
+            padding-top: 10%;
+
+            display: block;
+            width: 1500px;
+            overflow: hidden;
+            /*height: 100px;*/
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.7);
+            transition: background-color 0.5s;
+        }
+
+        ul:hover {
+            background-color: rgba(0, 0, 0, 1);
+        }
+
+        a {
+            padding-right: 10px;
+            padding-left: 5px;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        li.display{
+            display: inline-block;
+        }
+
+        div.section{
+            padding: 10px;
+            width: 250px;
+            height: 250px;
+            opacity: 0.6;
+            font-size: 16px;
+            transition: opacity 0.5s, width 0.5s, font-size 0.25s;
+            -webkit-transition: opacity 0.5s, width 0.5s, font-size 0.25s;
+            overflow: hidden;
+            position: relative;
+            margin: 10px;
+        }
+
+        div.section:hover {
+            opacity: 1;
+            width: 500px;
+            font-size: 18px;
+        }
+
+        #chan {
+            background: #111314 url('images/1.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #chan2 {
+            background: #111314 url('images/2.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #arch {
+            background: #111314 url('images/3.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #software {
+            background: #111314 url('images/4.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #search {
+            background: #111314 url('images/5.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #social {
+            background: #111314 url('images/6.png') no-repeat center center;
+            background-size: cover;
+        }
+
+        #books {
+            background: #111314 url('images/7.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #upl {
+            background: #111314 url('images/8.png') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<div class="display">
+<li class="display">
+<ul>
+<div id="chan" class="section">
+    <h2 id="t"><a href="https://www.4chan.org/">4chan</a></h2>
+        <ul>
+            <li><a href="https://boards.4chan.org/g/catalog">/g/</a></li>
+            <li><a href="https://boards.4chan.org/wg/catalog">/wg/</a></li>
+            <li><a href="https://boards.4chan.org/v/catalog">/v/</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="chan2" class="section">
+    <h2>Media</h2>
+        <ul>
+            <li><a href="http://www.youtube.com">YouTube</a></li>
+            <li><a href="http://www.soundcloud.com">SoundCloud</a></li>
+            <li><a href="http://www.giantbomb.com">GiantBomb</a></li>
+            <li><a href="http://www.rainymood.com/">RainyMood</a></li>
+            <li><a href="http://www.noisli.com/">Noisli</a></li>
+            <li><a href="http://agoodmovietowatch.com/">agoodmovietowatch.com</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="arch" class="section">
+    <h2>News</h2>
+        <ul>
+            <li><a href="https://www.reddit.com/r/squaredcircle/">Squared Circle</a></li>
+            <li><a href="https://www.f4wonline.com/">Figure 4 Online</a></li>
+            <li><a href="http://www.neogaf.com/forum/">NeoGAF</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="software" class="section">
+    <h2>Tech</h2>
+        <ul>
+            <li><a href="https://arstechnica.com">Ars Technica</a></li>
+            <li><a href="http://www.cnet.com/uk/">cnet</a></li>
+            <li><a href="https://github.com/">GitHub</a></li>
+        </ul>
+</div>
+</ul>
+</li>
+
+<li class="display">
+<ul>
+<div id="search" class="section">
+    <h2>Other</h2>
+        <ul>
+            <li><a href="http://www.colorhexa.com/">Colors</a></li>
+            <li><a href="https://www.amazon.co.uk">Amazon</a></li>
+            <li><a href="https://www.massdrop.com">MassDrop</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="social" class="section">
+    <h2>Social Network</h2>
+        <ul>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">FaceBook</a></li>
+            <li><a href="https://www.bestgaf.slack.com/">BestGAF</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="books" class="section">
+    <h2>Libary/Books</h2>
+        <ul>
+            <li><a href="http://bookzz.org/">BookZZ</a></li>
+            <li><a href="http://g.sicp.me/books/">Gentooman Libary</a></li>
+            <li><a href="https://en.wikibooks.org/wiki/Main_Page">Wikibooks</a></li>
+        </ul>
+</div>
+</ul><ul>
+<div id="upl" class="section">
+    <h2>Upload</h2>
+        <ul>
+            <li><a href="https://jii.moe/">じーっ</a></li>
+            <li><a href="https://imgur.com/">Imgur</a></li>
+            <li><a href="https://file.pizza">FilePizza</a></li>
+            <li><a href="https://ghostbin.com/">Ghostbin</a></li>
+            <li><a href="https://www.ssavr.com/">SSavr</a></li>
+        </ul>
+</div>
+</ul>
+</li>
+</div>
+
+</body>
+</html>
